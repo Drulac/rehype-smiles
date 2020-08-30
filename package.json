@@ -1,6 +1,6 @@
 {
   "name": "rehype-smiles",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "description": "rehype plugin wich convert SMILES molecule to SVG",
   "license": "MIT",
   "keywords": [
