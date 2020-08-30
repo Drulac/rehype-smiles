@@ -76,3 +76,5 @@ Always be wary of user input and use [`rehype-sanitize`][rehype-sanitize].
 [rehype]: https://github.com/rehypejs/rehype
 
 [xss]: https://en.wikipedia.org/wiki/Cross-site_scripting
+
+[rehype-sanitize]: https://github.com/rehypejs/rehype-sanitize
