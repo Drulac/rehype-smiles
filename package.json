@@ -1,7 +1,7 @@
 {
-  "name": "rehype-katex",
+  "name": "rehype-smiles",
   "version": "4.0.0",
-  "description": "rehype plugin to transform inline and block math with KaTeX",
+  "description": "rehype plugin wich convert SMILES molecule to SVG",
   "license": "MIT",
   "keywords": [
     "unified",
@@ -13,22 +13,14 @@
     "markdown",
     "hast",
     "html",
-    "math",
-    "katex",
+    "SMILES",
+    "molecule",
+    "chemical",
     "latex",
     "tex"
   ],
-  "repository": "https://github.com/remarkjs/remark-math/tree/main/packages/rehype-katex",
-  "bugs": "https://github.com/remarkjs/remark-math/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/unified"
-  },
-  "author": "Junyoung Choi <fluke8259@gmail.com> (https://rokt33r.github.io)",
-  "contributors": [
-    "Junyoung Choi <fluke8259@gmail.com> (https://rokt33r.github.io)",
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
-  ],
+  "repository": "https://github.com/Drulac/rehype-smiles",
+  "bugs": "https://github.com/Drulac/rehype-smiles/issues",
   "files": [
     "index.js",
     "types/index.d.ts"
@@ -36,9 +28,7 @@
   "main": "index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@types/katex": "^0.11.0",
     "hast-util-to-text": "^2.0.0",
-    "katex": "^0.12.0",
     "openchemlib": "^7.2.3",
     "rehype-parse": "^7.0.1",
     "unified": "^9.2.0",
@@ -47,5 +37,4 @@
   "scripts": {
     "test-types": "dtslint types"
   },
-  "xo": false
 }
