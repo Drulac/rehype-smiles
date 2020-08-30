@@ -60,7 +60,7 @@ Now, running `node example` yields:
 
 ### `rehype().use(smiles[, options])`
 
-Transform `<span class="math-inline">` and `<div class="math-display">` with [openchemlib](https://github.com/cheminfo/openchemlib-js).
+Transform `<span class="chemical-inline">` and `<div class="chemical-display">` with [openchemlib](https://github.com/cheminfo/openchemlib-js).
 
 ## Security
 
