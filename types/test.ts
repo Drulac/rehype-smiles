@@ -1,9 +1,9 @@
 import unified from 'unified'
-import katex from 'rehype-katex'
+import smiles from 'rehype-smiles'
 
 // $ExpectType Processor<Settings>
-unified().use(katex)
+unified().use(smiles)
 // $ExpectType Processor<Settings>
-unified().use(katex, {output: 'html'})
+unified().use(smiles, {output: 'html'})
 // $ExpectError
-unified().use(katex, {invalidProp: true})
+unified().use(smiles, {invalidProp: true})
