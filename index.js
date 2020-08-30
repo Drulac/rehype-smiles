@@ -81,9 +81,11 @@ function rehypeSmiles(options) {
 
 			const value = toText(element)
 
+			/*
 			console.log('`````````````````')
 			console.log(JSON.stringify(value))
 			console.log('>`````````````````')
+			*/
 
 			let result = toSVG(value)
 			element.children = [parseHtml.parse(result)]
